@@ -1,0 +1,36 @@
+<web-app>
+    <servlet>
+        <servlet-name>one</servlet-name>
+        <servlet-class>SignUp</servlet-class>
+    </servlet>
+
+     <servlet>
+        <servlet-name>two</servlet-name>
+        <servlet-class>Login</servlet-class>
+     </servlet>
+     <servlet>
+	<servlet-name>sc</servlet-name>
+	<servlet-class>ShoppingCart</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>one</servlet-name>
+        <url-pattern>/servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>two</servlet-name>
+        <url-pattern>/lg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+	<servlet-name>sc</servlet-name>
+	<url-pattern>/cart</url-pattern>
+
+     </servlet-mapping>
+<welcome-file-list>
+<welcome-file>Home.html</welcome-file>
+</welcome-file-list>
+</web-app>
+
+
+

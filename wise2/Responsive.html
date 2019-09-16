@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {box-sizing: 500000;}
+
+.search{
+width:50%;
+padding:5px;
+font-size:20px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.submit{
+width:15%;
+padding:10px;
+font-size:20px;
+background-color:#333399;
+color:white;
+}
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Home.html">Home</a>
+  <a href="Mylist.html">MyList</a>
+  <a href="/cart">My Orders</a>
+  <a href="#">SignOut</a>
+    <a href="#">About Us</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<center><h2>Categories</h2></center>
+<br><br><br>
+<table>
+<tr>
+<td>
+<a href="Dairy2.html"><img src="Diary.jpg"  alt="not found" width=300 height=200 style="padding-left:50px;"></a><br><center><a href="Dairy.html" style="text-decoration:none;color:green">DairyProducts</a></center></br>
+</td>
+<td width=25 height=50></td>
+<td align="center"><a href="Vegetables2.html"><img src="vegetables.jpg" alt="not found"  width=300 height=200></a><br><center><a href="vegetables.html" style="text-decoration:none;color:green">Vegetables</a></center></br>
+</td>
+<td width=200 height=50></td>
+
+<td align="center"><a href="Chocolates2.html"><img src="chacolates.jpg" alt="not found" width="300" height="200"></a><br><center><a href="Chocolates.html" style="text-decoration:none;color:green">Chocolates</a></center><br></br></td><td width=45 height=50></td>
+</tr>
+<tr>
+<td><a href="Fruits2.html"><img src="Fruits.jpg" alt="not found" width=300 height=200 style="padding-left:50px;"></a><br><center><a href="Fruits.html" style="text-decoration:none;color:green">Fruits</a></center><br><br>
+</td>
+<td width=200 height=200></td>
+
+<td><a href="Non-Veg2.html"><img src="Eggs.jpg" alt="not found" width="300" height="200"></a><br><center><a href="Non-Veg.html" style="text-decoration:none;color:green">Eggs,Meat,Fish</a></center><br></br></td><td width=45 height=50></td>
+
+<td><a href="Beverages2.html"><img src="Beverages.jpg" alt="not found" width=300 height=200></a><br><center><a href="Beverages.html" style="text-decoration:none;color:green">Beverages</a><br></center></br></td>
+</tr><br><br>
+<tr>
+<td>
+<a href="Candies2.html"><img src="Candies.jpg" alt="not found" width=300 height=200 style="padding-left:50px;"></a><br><center><a href="Candies.html" style="text-decoration:none;color:green">Candies</a></center><br></br>
+</td>
+<td width=25 height=50></td>
+<td align="center"><a href="BakedGoods2.html"><img src="BakedGoods.jpg" alt="not found"  width=300 height=200></a><br><center><a href="BakedGoods.html" style="text-decoration:none;color:green">BakedGoods</a></center></br>
+</td>
+<td width=200 height=50></td>
+
+<td align="center"><a href="Pulses.html"><img src="Pulses.jpg" alt="not found" width=300 height=200></a><br><center><a href="Pulses.html" style="text-decoration:none;color:green">Pulses</a></center><br></br>
+</td>
+</tr>
+<tr>
+<td><a href="Food Grains2.html"><img src="FoodGrains.jpg" alt="not found" width=300 height=200 style="padding-left:50px;"></a><br><center><a href="Food Grains.html" style="text-decoration:none;color:green" >FoodGrains</a></center><br></br>
+</td>
+<td width=200 height=200></td>
+
+<td><a href="Oils2.html"><img src="oil.jpg" alt="not found" width="300" height="200"></a><br><center><a href="Oil.html" style="text-decoration:none;color:green">Oil</a></center><br></br></td><td width=45 height=50></td>
+
+<td><a href="Spices2.html"><img src="spices.jpg" alt="not found" width="300" height="200"></a><br><center><a href="Spices.html" style="text-decoration:none;color:green">Spices</a></center><br></br></td><td width=45 height=50></td>
+</tr>
+<tr>
+<td>
+<a href="Snacks2.html"><img src="snacks.jpg" alt="not found" width=300 height=200 style="padding-left:50px;"></a><br><center><a href="Snacks.html" style="text-decoration:none;color:green">Snacks</a></center><br></br>
+</td>
+<td width=25 height=50></td>
+<td align="center"><a href="Dry Fruits2.html"><img src="dry fruits.cms" alt="not found"  width=300 height=200></a><br><center><a href="Dry Fruits.html" style="text-decoration:none;color:green">DryFruits</a></center><br></br>
+</td>
+<td width=200 height=50></td>
+<td><a href="Desserts2.html"><img src="desserts.jpg" alt="not found" width=300 height=200 style="padding-left:50px;"></a><br><center><a href="desserts.html" style="text-decoration:none;color:green">Desserts</a></center><br></br></td>
+
+<td align="center">
+</td>
+</tr>
+
+</table>   
+</body>
+</html> 
